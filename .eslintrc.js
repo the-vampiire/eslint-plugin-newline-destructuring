@@ -52,7 +52,6 @@ module.exports = {
       "error",
       {
         items: 2,
-
       }
     ]
   },
