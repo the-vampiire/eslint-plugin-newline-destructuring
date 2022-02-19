@@ -1,7 +1,5 @@
-import newline from './newline';
-
-module.exports = {
-  rules: {
-    newline,
-  },
-};
+const {
+  SERVICE_NAME_API_BASE_URL,
+  SERVICE_NAME_API_PORT,
+  SERVICE_NAME_TOKEN
+} = process.env;
