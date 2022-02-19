@@ -10,7 +10,7 @@ module.exports = {
     jest: true,
   },
   ignorePatterns: ["node_modules", "build", "coverage", ".eslintrc.js", "jest.config.js"],
-  plugins: ["import", "eslint-comments", , "eslint-plugin-newline-destructuring"],
+  plugins: ["import", "eslint-comments", "eslint-plugin-newline-destructuring"],
   extends: [
     "eslint:recommended",
     "plugin:eslint-comments/recommended",
@@ -51,7 +51,7 @@ module.exports = {
     'newline-destructuring/newline': [
       "error",
       {
-        items: 3,
+        items: 2,
 
       }
     ]
