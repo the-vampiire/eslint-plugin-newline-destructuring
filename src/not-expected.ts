@@ -1,5 +1,15 @@
 import { Kmd } from "algosdk";
 
+/**
+expected:
+
+const {
+  ALGORAND_KMD_API_BASE_URL,
+  ALGORAND_KMD_API_PORT,
+  ALGORAND_KMD_TOKEN
+} = process.env;
+ */
+
 const {
 ALGORAND_KMD_API_BASE_URL,
 ALGORAND_KMD_API_PORT,
